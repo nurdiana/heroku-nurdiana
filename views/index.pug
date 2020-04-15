@@ -1,5 +1,27 @@
 extends layout
-
 block content
-  h1= title
-  p Welcome to #{title}
+  nav#navbar
+    ul.nav-list
+      li
+        a(href='#')
+          | Home
+      li
+        a(href='#')
+          | Projects
+      li
+        a(href='#')
+          | Contact
+  #welcome-section
+    h1
+      | Nurdiana Atmanagara
+    p Scroll to see my portofolio
+    #down-arrow &#x2B07;
+  //- #projects
+  //-   .project-tile
+  //-     a(href='http://www.google.com')
+  //-       | Link
+  //-   .project-tile
+  //-     a(href='http://www.google.com')
+  //-       | Link
+  //- a#profile-link(href='http://www.google.com' target='_blank')
+  //-   | link
